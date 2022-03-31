@@ -28,13 +28,15 @@ jobs:
         $(npm bin)/cypress cache path
         $(npm bin)/cypress cache list
         $(npm bin)/cypress verify
-   # - name: Clear before start
+    #- name: Clear before start
       #run: npm run pretest
-      continue-on-error: true   
+      #continue-on-error: true   
     - name: Run Cypress tests
-      run: npm run test
+      run: npm run integrate
       continue-on-error: true
-    - name: Deploy report page 
+    - name: Merge 
+      run: npm run allure generate allure-results --clean -o allure-report
+    - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
