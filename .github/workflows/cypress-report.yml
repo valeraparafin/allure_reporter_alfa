@@ -39,7 +39,7 @@ jobs:
 #        cp -r cypress/videos public/videos
     - name: Generate Report
       run: npm run aftertest
-       - name: Deploy report page
+      - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
