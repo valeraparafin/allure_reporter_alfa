@@ -7,11 +7,11 @@ name: Create Cypress report
   #schedule:
      #- cron: '0 8 * * *' #every day at 8pm - minute hour day mounth year.
 on:
-  #push:
+  push:
     #branches:
     #  - 'master'
-  schedule:
-    - cron: '0 5 1-31 * *'     
+  #schedule:
+   # - cron: '0 5 1-31 * *'     
      
      
 
@@ -28,21 +28,21 @@ jobs:
         $(npm bin)/cypress cache path
         $(npm bin)/cypress cache list
         $(npm bin)/cypress verify
+    - name: Clear before start
+      run: npm run pretest   
     - name: Run Cypress tests
-      run: npm run health:chrome
+      run: npm run test
       continue-on-error: true
 #    - name: Copy test execution videos
 #      run: |
 #        mkdir public
 #        cp -r cypress/videos public/videos
-    - name: Merge test results into one
-      run: npm run report:merge
-    - name: Generate HTML report
-      run: npm run report:generate
-    - name: Deploy report page
+    - name: Generate Report
+      run: npm run aftertest
+       - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
-        publish_dir: ./public
+        publish_dir: ./allure-results && ./allure-report && ./cypress/videos/
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
