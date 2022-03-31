@@ -1,0 +1,91 @@
+[ {
+  "uid" : "14a77419966cb910",
+  "name" : "pass your own callback function to should()",
+  "time" : {
+    "start" : 1648746772490,
+    "stop" : 1648746772858,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79c9df07bb8bbaf6",
+  "name" : "matches unknown text between two elements",
+  "time" : {
+    "start" : 1648746773566,
+    "stop" : 1648746773909,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad51831ef2d7d72",
+  "name" : "retries the should callback until assertions pass",
+  "time" : {
+    "start" : 1648746774233,
+    "stop" : 1648746776015,
+    "duration" : 1782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc9281493c16599",
+  "name" : ".should() - make an assertion about the current subject",
+  "time" : {
+    "start" : 1648746769819,
+    "stop" : 1648746771704,
+    "duration" : 1885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a5429be872ca865",
+  "name" : "expect - make an assertion about a specified subject",
+  "time" : {
+    "start" : 1648746772147,
+    "stop" : 1648746772483,
+    "duration" : 336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22681133e62ec473",
+  "name" : "can throw any error",
+  "time" : {
+    "start" : 1648746773234,
+    "stop" : 1648746773560,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d42b8a15e947300e",
+  "name" : "finds element by class name regex",
+  "time" : {
+    "start" : 1648746772870,
+    "stop" : 1648746773222,
+    "duration" : 352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a09892837acc6dc",
+  "name" : "assert - assert shape of an object",
+  "time" : {
+    "start" : 1648746773917,
+    "stop" : 1648746774227,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f354810ba86b013",
+  "name" : ".and() - chain multiple assertions together",
+  "time" : {
+    "start" : 1648746771764,
+    "stop" : 1648746772136,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
