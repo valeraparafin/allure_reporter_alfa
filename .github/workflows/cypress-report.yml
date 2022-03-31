@@ -33,6 +33,7 @@ jobs:
       #continue-on-error: true
     - name: Clear
       run: npm run allure:clear
+      continue-on-error: true
     - name: Run Cypress tests
       run: npm run allure
       continue-on-error: true
