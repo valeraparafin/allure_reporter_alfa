@@ -29,7 +29,8 @@ jobs:
         $(npm bin)/cypress cache list
         $(npm bin)/cypress verify
     - name: Clear before start
-      run: npm run pretest   
+      run: npm run pretest
+      continue-on-error: true   
     - name: Run Cypress tests
       run: npm run test
       continue-on-error: true
