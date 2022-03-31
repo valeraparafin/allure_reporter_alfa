@@ -32,12 +32,12 @@ jobs:
       #run: npm run pretest
       #continue-on-error: true
     - name: Clear
-      run: allure-results rmdir /q /s allure-results && allure-report rmdir /q /s allure-report && cypress/screenshots rmdir && cypress/videos rmdir /q /s
+      run: npm run allure:clear
     - name: Run Cypress tests
       run: npm run allure
       continue-on-error: true
     - name: Merge 
-      run: npm run allure generate allure-results --clean -o allure-report
+      run: npm run aftertest
     - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
       with:
