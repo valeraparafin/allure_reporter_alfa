@@ -30,9 +30,11 @@ jobs:
         $(npm bin)/cypress verify
     #- name: Clear before start
       #run: npm run pretest
-      #continue-on-error: true   
+      #continue-on-error: true
+    - name: Clear
+      run: allure-results rmdir /q /s allure-results && allure-report rmdir /q /s allure-report && cypress/screenshots rmdir && cypress/videos rmdir /q /s
     - name: Run Cypress tests
-      run: npm run integrate
+      run: npm run allure
       continue-on-error: true
     - name: Merge 
       run: npm run allure generate allure-results --clean -o allure-report
@@ -40,6 +42,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
-        publish_dir: ./allure-results && ./allure-report && ./cypress/videos/
+        publish_dir: allure-results && allure-report && cypress/videos/
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
