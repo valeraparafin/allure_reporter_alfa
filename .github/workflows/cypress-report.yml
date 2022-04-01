@@ -55,10 +55,7 @@ jobs:
         #           /allure-results
         #           /allure-report
         #           /cypress/videos/\
-        publish_dir: |
-                  allure-report
-                  allure-results
-                  cypress/screenshots
-                  cypress/videos
+        publish_dir: allure-report
+        keep_files: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
