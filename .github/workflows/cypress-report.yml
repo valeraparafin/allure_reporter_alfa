@@ -36,8 +36,7 @@ jobs:
         rm -rf allure-results
         rm -rf allure-report
         rm -rf cypress/screenshots
-        rm -rf cypress/videos 
-      run: npm run allure:clear
+        rm -rf cypress/videos
       continue-on-error: true
     - name: Run Cypress tests
       run: npm run allure
