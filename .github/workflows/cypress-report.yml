@@ -16,6 +16,55 @@ on:
      
 
 jobs:
+  ui-chrome-mobile-tests:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node14.17.0-chrome88-ff89
+    strategy:
+      fail-fast: false
+      matrix:
+        # run copies of the current job in parallel
+        containers: [1, 2, 3, 4]
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: set up JDK 8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8         
+      - name: "UI Tests - Chrome - Mobile"
+        uses: cypress-io/github-action@v2
+        with:
+          config: "viewportWidth=375,viewportHeight=667"
+          wait-on-timeout: 120
+          browser: chrome
+          record: true
+          parallel: true
+          group: "UI - Chrome - Mobile"
+          # spec: "integration/UI/*/*.js"
+          start: npm run smoke:user
+        env:
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Allure Report 
+      - run: npm run aftertest
+      
+      - name: Deploy Generated Report
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+          # publish_dir: |
+          #           /allure-results
+          #           /allure-report
+          #           /cypress/videos/\
+          publish_dir: allure-report
+          keep_files: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+
+
   cypress-e2e-chrome87:
     name: E2E Run on Chrome
     runs-on: ubuntu-18.04
@@ -45,9 +94,9 @@ jobs:
     - name: Run Cypress tests
       run: npm run integrate
       continue-on-error: true
-    #- name: Merge 
+    - name: Generate Allure Report 
     - run: npm run aftertest
-    - name: Deploy report page
+    - name: Deploy Generated Report
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        

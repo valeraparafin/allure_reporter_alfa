@@ -11,7 +11,9 @@
     "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress/screenshots rmdir /q /s cypress/screenshots && if exist cypress/videos rmdir /q /s cypress/videos",
     "pretest": "npm run allure:clear",
     "test": "npm run integrate || npm run aftertest",
-    "aftertest": "npm run allure:report"
+    "aftertest": "npm run allure:report",
+	"smoke:admin":"npx cypress run -s 'cypress/integration/admin/todo-2.spec' --group admin  --env allure=true --headless",
+	"smoke:user":"npx cypress run -s 'cypress/integration/user-board/todo-3.spec' --group user-board --env allure=true --headless"
   },
   "author": "artem klimov",
   "license": "ISC",
