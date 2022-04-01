@@ -56,17 +56,6 @@
       "total" : 7
     }
   }, {
-    "uid" : "f0e5a3486f211a49cdd3cca277fba252",
-    "name" : "example to-do app",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 6
-    }
-  }, {
     "uid" : "1ae95e9e0c810dc786f0a0fd1d065d30",
     "name" : "Misc",
     "statistic" : {
@@ -80,6 +69,17 @@
   }, {
     "uid" : "b79fb2374a488d5ae5d00bdad833dae0",
     "name" : "Network Requests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "f0e5a3486f211a49cdd3cca277fba252",
+    "name" : "example to-do app",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
