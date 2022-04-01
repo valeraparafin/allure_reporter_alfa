@@ -43,7 +43,7 @@ jobs:
         rm -rf cypress/videos
       continue-on-error: true
     - name: Run Cypress tests
-      run: npm run test
+      run: npm run integrate
       continue-on-error: true
     #- name: Merge 
     - run: npm run aftertest
