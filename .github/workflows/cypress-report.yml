@@ -28,6 +28,8 @@ jobs:
         $(npm bin)/cypress cache path
         $(npm bin)/cypress cache list
         $(npm bin)/cypress verify
+    - name: Install Java
+      run: sudo apt install openjdk-8-jre
     #- name: Clear before start
       #run: npm run pretest
       #continue-on-error: true
