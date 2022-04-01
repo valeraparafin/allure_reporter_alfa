@@ -1,0 +1,112 @@
+{
+  "uid" : "bf8ff6add14fe7bd",
+  "name" : "can throw any error",
+  "fullName" : "can throw any error",
+  "historyId" : "aaae293fef3d71c9014e0c60189aa6f6",
+  "time" : {
+    "start" : 1648847939874,
+    "stop" : 1648847940258,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648847939874,
+        "stop" : 1648847940209,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/commands/assertions",
+        "time" : {
+          "start" : 1648847939892,
+          "stop" : 1648847940208,
+          "duration" : 316
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .docs-header",
+      "time" : {
+        "start" : 1648847940234,
+        "stop" : 1648847940255,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find div",
+      "time" : {
+        "start" : 1648847940255,
+        "stop" : 1648847940258,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Assertions"
+  }, {
+    "name" : "suite",
+    "value" : "Explicit Assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf8ff6add14fe7bd.json",
+  "parameterValues" : [ ]
+}

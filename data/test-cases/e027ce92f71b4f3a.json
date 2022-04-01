@@ -1,0 +1,233 @@
+{
+  "uid" : "e027ce92f71b4f3a",
+  "name" : "displays two todo items by default",
+  "fullName" : "displays two todo items by default",
+  "historyId" : "d1d258d923e649c7e691d13953b42cb2",
+  "time" : {
+    "start" : 1648848104562,
+    "stop" : 1648848105330,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648848104564,
+        "stop" : 1648848105222,
+        "duration" : 658
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/todo",
+        "time" : {
+          "start" : 1648848104592,
+          "stop" : 1648848105220,
+          "duration" : 628
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1648848105235,
+        "stop" : 1648848105287,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **[ <li>, 1 more... ]** to have a length of **2**",
+      "time" : {
+        "start" : 1648848105287,
+        "stop" : 1648848105287,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "2"
+      }, {
+        "name" : "expected",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1648848105287,
+        "stop" : 1648848105291,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "first",
+      "time" : {
+        "start" : 1648848105291,
+        "stop" : 1648848105312,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li>** to have text **Pay electric bill**",
+      "time" : {
+        "start" : 1648848105312,
+        "stop" : 1648848105312,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Pay electric bill"
+      }, {
+        "name" : "expected",
+        "value" : "Pay electric bill"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1648848105312,
+        "stop" : 1648848105316,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "last",
+      "time" : {
+        "start" : 1648848105316,
+        "stop" : 1648848105329,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li>** to have text **Walk the dog**",
+      "time" : {
+        "start" : 1648848105329,
+        "stop" : 1648848105329,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Walk the dog"
+      }, {
+        "name" : "expected",
+        "value" : "Walk the dog"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fcf6e613e9ffb55f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648848095406,
+        "stop" : 1648848096276,
+        "duration" : 870
+      }
+    }, {
+      "uid" : "42d2bbd130114b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648847883069,
+        "stop" : 1648847884173,
+        "duration" : 1104
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e027ce92f71b4f3a.json",
+  "parameterValues" : [ ]
+}
