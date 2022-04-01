@@ -51,9 +51,10 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
-        publish_dir: |
-                  /allure-results
-                  /allure-report
-                  /cypress/videos/
+        # publish_dir: |
+        #           /allure-results
+        #           /allure-report
+        #           /cypress/videos/\
+        publish_dir: allure-report
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
