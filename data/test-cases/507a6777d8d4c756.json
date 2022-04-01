@@ -1,0 +1,265 @@
+{
+  "uid" : "507a6777d8d4c756",
+  "name" : "cy.fixture() - load a fixture",
+  "fullName" : "cy.fixture() - load a fixture",
+  "historyId" : "039ad7c1405715c37fc980b9b4447ac7",
+  "time" : {
+    "start" : 1648804115755,
+    "stop" : 1648804116659,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648804115756,
+        "stop" : 1648804116261,
+        "duration" : 505
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/commands/files",
+        "time" : {
+          "start" : 1648804115786,
+          "stop" : 1648804116260,
+          "duration" : 474
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648804116269,
+        "stop" : 1648804116389,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"example.json\")",
+        "time" : {
+          "start" : 1648804116270,
+          "stop" : 1648804116316,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"example\")",
+        "time" : {
+          "start" : 1648804116316,
+          "stop" : 1648804116317,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "intercept (\"GET\"; \"**/comments/*\"; \"{ fixture: 'example.json' }\")",
+      "time" : {
+        "start" : 1648804116391,
+        "stop" : 1648804116417,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "as (\"getComment\")",
+      "time" : {
+        "start" : 1648804116417,
+        "stop" : 1648804116417,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .fixture-btn",
+      "time" : {
+        "start" : 1648804116417,
+        "stop" : 1648804116462,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1648804116462,
+        "stop" : 1648804116630,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://jsonplaceholder.cypress.io/comments/1",
+      "time" : {
+        "start" : 1648804116630,
+        "stop" : 1648804116630,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait @getComment",
+      "time" : {
+        "start" : 1648804116630,
+        "stop" : 1648804116633,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "its .response.body",
+      "time" : {
+        "start" : 1648804116633,
+        "stop" : 1648804116648,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **{ Object (name, email, ...) }** to have property **name**",
+      "time" : {
+        "start" : 1648804116647,
+        "stop" : 1648804116647,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"name\": \"Using fixtures to represent data\",\n  \"email\": \"hello@cypress.io\",\n  \"body\": \"Fixtures are a great way to mock data for responses to routes\"\n}"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **Using fixtures to represent data** to include **Using fixtures to represent data**",
+      "time" : {
+        "start" : 1648804116647,
+        "stop" : 1648804116647,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Using fixtures to represent data"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Files"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "507a6777d8d4c756.json",
+  "parameterValues" : [ ]
+}

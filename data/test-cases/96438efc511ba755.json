@@ -1,0 +1,139 @@
+{
+  "uid" : "96438efc511ba755",
+  "name" : "Cypress.$ - call a jQuery method",
+  "fullName" : "Cypress.$ - call a jQuery method",
+  "historyId" : "8d8b4824260ecfb9aac44814f3f6e90e",
+  "time" : {
+    "start" : 1648804200961,
+    "stop" : 1648804201389,
+    "duration" : 428
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648804200961,
+        "stop" : 1648804201195,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/utilities",
+        "time" : {
+          "start" : 1648804200999,
+          "stop" : 1648804201195,
+          "duration" : 196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wrap <li.list-group-item>",
+      "time" : {
+        "start" : 1648804201200,
+        "stop" : 1648804201227,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li.list-group-item>** not to have class **active**",
+      "time" : {
+        "start" : 1648804201227,
+        "stop" : 1648804201227,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1648804201227,
+        "stop" : 1648804201389,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li.list-group-item.active>** to have class **active**",
+      "time" : {
+        "start" : 1648804201388,
+        "stop" : 1648804201388,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Utilities"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96438efc511ba755.json",
+  "parameterValues" : [ ]
+}
