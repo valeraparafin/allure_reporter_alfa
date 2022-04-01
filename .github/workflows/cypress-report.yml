@@ -46,25 +46,8 @@ jobs:
         env:
           CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Allure Report 
-      - run: npm run aftertest
-      
-      - name: Deploy Generated Report
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
-          # publish_dir: |
-          #           /allure-results
-          #           /allure-report
-          #           /cypress/videos/\
-          publish_dir: allure-report
-          keep_files: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          
   cypress-e2e-chrome87:
     name: E2E Run on Chrome
     runs-on: ubuntu-18.04
