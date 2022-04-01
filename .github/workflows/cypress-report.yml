@@ -45,7 +45,7 @@ jobs:
     - name: Run Cypress tests
       run: npm run integrate
       continue-on-error: true
-    - name: Merge 
+    #- name: Merge 
     - run: npm run aftertest
     - name: Deploy report page
       uses: peaceiris/actions-gh-pages@v3
@@ -59,4 +59,3 @@ jobs:
         keep_files: true
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
- 
