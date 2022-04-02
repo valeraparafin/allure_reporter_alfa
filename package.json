@@ -12,8 +12,8 @@
     "pretest": "npm run allure:clear",
     "test": "npm run integrate || npm run aftertest",
     "aftertest": "npm run allure:report",
-	"smoke:admin":"npx cypress run -s 'cypress/integration/admin/*.spec' --group admin  --env allure=true --headless",
-	"smoke:user":"npx cypress run -s 'cypress/integration/user*/*.spec' --env allure=true --headless"
+	"smoke:admin":"npx cypress run -s 'cypress/integration/admin/*.spec.js' --group admin  --env allure=true --headless",
+	"smoke:user":"npx cypress run -s 'cypress/integration/user*/*.spec.js' --env allure=true --headless"
   },
   "author": "artem klimov",
   "license": "ISC",
