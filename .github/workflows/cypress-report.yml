@@ -82,14 +82,14 @@ jobs:
           config: "viewportWidth=375,viewportHeight=667"
           wait-on-timeout: 120
           browser: chrome
-          record: true
-          parallel: true
+          #record: true
+          #parallel: true
           group: "UI - Chrome - Mobile"
           # spec: "integration/UI/*/*.js"
           start: npm run smoke:user
         env:
-          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          #CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          #CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
 
       - name: Generate Allure Report
