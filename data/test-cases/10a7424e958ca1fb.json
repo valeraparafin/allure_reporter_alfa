@@ -1,0 +1,115 @@
+{
+  "uid" : "10a7424e958ca1fb",
+  "name" : "Get current spec information",
+  "fullName" : "Get current spec information",
+  "historyId" : "e952f84b8f1a87283ae7cecc2cf847c6",
+  "time" : {
+    "start" : 1648928214898,
+    "stop" : 1648928215179,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648928214898,
+        "stop" : 1648928215158,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/cypress-api",
+        "time" : {
+          "start" : 1648928214937,
+          "stop" : 1648928215158,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "wrap Object{4}",
+      "time" : {
+        "start" : 1648928215169,
+        "stop" : 1648928215179,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **{ Object (name, relative, ...) }** to contain keys **name**, **relative**, and **absolute**",
+      "time" : {
+        "start" : 1648928215178,
+        "stop" : 1648928215179,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  \"absolute\",\n  \"name\",\n  \"relative\",\n  \"specType\"\n]"
+      }, {
+        "name" : "expected",
+        "value" : "[\n  \"absolute\",\n  \"name\",\n  \"relative\"\n]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cypress.spec"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10a7424e958ca1fb.json",
+  "parameterValues" : [ ]
+}

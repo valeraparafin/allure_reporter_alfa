@@ -1,0 +1,82 @@
+{
+  "uid" : "3ae0f4f721dd56e3",
+  "name" : "Cypress.Screenshot.defaults() - change default config of screenshots",
+  "fullName" : "Cypress.Screenshot.defaults() - change default config of screenshots",
+  "historyId" : "4bdc5f1d0e9c874c391de4e9dc96d074",
+  "time" : {
+    "start" : 1648928246463,
+    "stop" : 1648928246733,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648928246463,
+        "stop" : 1648928246709,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/commands/misc",
+        "time" : {
+          "start" : 1648928246496,
+          "stop" : 1648928246708,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Misc"
+  }, {
+    "name" : "suite",
+    "value" : "Cypress.Screenshot"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ae0f4f721dd56e3.json",
+  "parameterValues" : [ ]
+}
