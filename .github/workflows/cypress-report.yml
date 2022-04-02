@@ -82,7 +82,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           config: "viewportWidth=375,viewportHeight=667"
-          wait-on-timeout: 120
+          wait-on-timeout: 10000
           browser: chrome
           #record: true
           #parallel: true

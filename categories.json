@@ -21,8 +21,9 @@
     "name": "Test defects",
     "matchedStatuses": ["broken"]
   },
-  {
+    {
     "name": "Test passed",
-    "matchedStatuses": ["passed"]
+    "matchedStatuses": ["passed"],
+    "messageRegex": ".*passed.*"
   }
 ]
