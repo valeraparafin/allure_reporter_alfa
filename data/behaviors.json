@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : ".type() - type into a DOM element",
-    "uid" : "e6f489deb1cbdce8",
+    "uid" : "ba4b3e5e3c2e88ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848455063,
-      "stop" : 1648848460879,
-      "duration" : 5816
+      "start" : 1648903169708,
+      "stop" : 1648903175052,
+      "duration" : 5344
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +19,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".focus() - focus on a DOM element",
-    "uid" : "75682d0ffa4a1069",
+    "uid" : "af5a0add5c2b3685",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848460942,
-      "stop" : 1648848461741,
-      "duration" : 799
+      "start" : 1648903175085,
+      "stop" : 1648903175619,
+      "duration" : 534
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,13 +36,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".blur() - blur off a DOM element",
-    "uid" : "c48840e2065224f",
+    "uid" : "551bcdc3c36fcbcc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848461792,
-      "stop" : 1648848462734,
-      "duration" : 942
+      "start" : 1648903175648,
+      "stop" : 1648903176491,
+      "duration" : 843
     },
     "flaky" : false,
     "newFailed" : false,
@@ -53,13 +53,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".clear() - clears an input or textarea element",
-    "uid" : "eb8f481bb297f2b7",
+    "uid" : "7869871d4aef1d6f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848462773,
-      "stop" : 1648848463925,
-      "duration" : 1152
+      "start" : 1648903176552,
+      "stop" : 1648903177523,
+      "duration" : 971
     },
     "flaky" : false,
     "newFailed" : false,
@@ -70,13 +70,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".submit() - submit a form",
-    "uid" : "fd2acbcf2d222f30",
+    "uid" : "eda519e0e04653be",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848463941,
-      "stop" : 1648848464977,
-      "duration" : 1036
+      "start" : 1648903177545,
+      "stop" : 1648903178480,
+      "duration" : 935
     },
     "flaky" : false,
     "newFailed" : false,
@@ -87,13 +87,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".click() - click on a DOM element",
-    "uid" : "1c222df9d0acfae",
+    "uid" : "7255bcca151a4017",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848464990,
-      "stop" : 1648848470833,
-      "duration" : 5843
+      "start" : 1648903178502,
+      "stop" : 1648903183096,
+      "duration" : 4594
     },
     "flaky" : false,
     "newFailed" : false,
@@ -104,13 +104,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".dblclick() - double click on a DOM element",
-    "uid" : "8c489c1689f0018c",
+    "uid" : "f7aaf02f17f6557b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848470856,
-      "stop" : 1648848471511,
-      "duration" : 655
+      "start" : 1648903183101,
+      "stop" : 1648903183676,
+      "duration" : 575
     },
     "flaky" : false,
     "newFailed" : false,
@@ -121,13 +121,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".rightclick() - right click on a DOM element",
-    "uid" : "73317b5b250f3314",
+    "uid" : "1ef930fd8ef5ddf7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848471542,
-      "stop" : 1648848472330,
-      "duration" : 788
+      "start" : 1648903183693,
+      "stop" : 1648903184251,
+      "duration" : 558
     },
     "flaky" : false,
     "newFailed" : false,
@@ -138,13 +138,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".check() - check a checkbox or radio element",
-    "uid" : "9407f082cec98033",
+    "uid" : "c5c2538f2e87622c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848472375,
-      "stop" : 1648848475116,
-      "duration" : 2741
+      "start" : 1648903184271,
+      "stop" : 1648903186192,
+      "duration" : 1921
     },
     "flaky" : false,
     "newFailed" : false,
@@ -155,13 +155,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".uncheck() - uncheck a checkbox element",
-    "uid" : "b1b5b9a104dc5705",
+    "uid" : "63bd6216309cd1b7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848475137,
-      "stop" : 1648848477735,
-      "duration" : 2598
+      "start" : 1648903186198,
+      "stop" : 1648903188149,
+      "duration" : 1951
     },
     "flaky" : false,
     "newFailed" : false,
@@ -172,13 +172,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".select() - select an option in a <select> element",
-    "uid" : "67bf2ce7a70ebc80",
+    "uid" : "283b0656ecd450e9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848477752,
-      "stop" : 1648848479809,
-      "duration" : 2057
+      "start" : 1648903188157,
+      "stop" : 1648903189676,
+      "duration" : 1519
     },
     "flaky" : false,
     "newFailed" : false,
@@ -189,13 +189,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".scrollIntoView() - scroll an element into view",
-    "uid" : "3d1e15b54f5c7118",
+    "uid" : "2d65d4448bbe817b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848479872,
-      "stop" : 1648848480524,
-      "duration" : 652
+      "start" : 1648903189699,
+      "stop" : 1648903190039,
+      "duration" : 340
     },
     "flaky" : false,
     "newFailed" : false,
@@ -206,13 +206,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".trigger() - trigger an event on a DOM element",
-    "uid" : "9034b933b669fb9b",
+    "uid" : "8b42350eeb02de17",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848480618,
-      "stop" : 1648848481379,
-      "duration" : 761
+      "start" : 1648903190060,
+      "stop" : 1648903190474,
+      "duration" : 414
     },
     "flaky" : false,
     "newFailed" : false,
@@ -223,13 +223,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.scrollTo() - scroll the window or element to a position",
-    "uid" : "9d18dabbaacbd176",
+    "uid" : "9816dcc5cc80990a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848481466,
-      "stop" : 1648848484004,
-      "duration" : 2538
+      "start" : 1648903190494,
+      "stop" : 1648903192797,
+      "duration" : 2303
     },
     "flaky" : false,
     "newFailed" : false,
@@ -240,13 +240,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".as() - alias a DOM element for later use",
-    "uid" : "bc5d619143aef94b",
+    "uid" : "3df13a298970042d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848501624,
-      "stop" : 1648848502907,
-      "duration" : 1283
+      "start" : 1648903204890,
+      "stop" : 1648903206064,
+      "duration" : 1174
     },
     "flaky" : false,
     "newFailed" : false,
@@ -257,13 +257,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".as() - alias a route for later use",
-    "uid" : "3ed04a7240248f63",
+    "uid" : "8036e60999b11b96",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848502948,
-      "stop" : 1648848504243,
-      "duration" : 1295
+      "start" : 1648903206080,
+      "stop" : 1648903207270,
+      "duration" : 1190
     },
     "flaky" : false,
     "newFailed" : false,
@@ -274,13 +274,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".should() - make an assertion about the current subject",
-    "uid" : "eae73529f6d7ff26",
+    "uid" : "f5570bad016d0c31",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848512736,
-      "stop" : 1648848514573,
-      "duration" : 1837
+      "start" : 1648903214557,
+      "stop" : 1648903215614,
+      "duration" : 1057
     },
     "flaky" : false,
     "newFailed" : false,
@@ -291,13 +291,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".and() - chain multiple assertions together",
-    "uid" : "f4a584d7fc0d8135",
+    "uid" : "d350247372f96b91",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848514899,
-      "stop" : 1648848515326,
-      "duration" : 427
+      "start" : 1648903215717,
+      "stop" : 1648903215988,
+      "duration" : 271
     },
     "flaky" : false,
     "newFailed" : false,
@@ -308,13 +308,13 @@
     "parameters" : [ ]
   }, {
     "name" : "expect - make an assertion about a specified subject",
-    "uid" : "cad43a6216b74285",
+    "uid" : "6d0cf810132796c2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848515381,
-      "stop" : 1648848515797,
-      "duration" : 416
+      "start" : 1648903216018,
+      "stop" : 1648903216453,
+      "duration" : 435
     },
     "flaky" : false,
     "newFailed" : false,
@@ -325,13 +325,13 @@
     "parameters" : [ ]
   }, {
     "name" : "pass your own callback function to should()",
-    "uid" : "ae22199cad8aa007",
+    "uid" : "7cffa856bfad5e94",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848515830,
-      "stop" : 1648848516246,
-      "duration" : 416
+      "start" : 1648903216497,
+      "stop" : 1648903216854,
+      "duration" : 357
     },
     "flaky" : false,
     "newFailed" : false,
@@ -342,13 +342,13 @@
     "parameters" : [ ]
   }, {
     "name" : "finds element by class name regex",
-    "uid" : "831189d82271ddb4",
+    "uid" : "13d416ec1634677c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848516296,
-      "stop" : 1648848516697,
-      "duration" : 401
+      "start" : 1648903216895,
+      "stop" : 1648903217223,
+      "duration" : 328
     },
     "flaky" : false,
     "newFailed" : false,
@@ -359,13 +359,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can throw any error",
-    "uid" : "abb4fa55bd6989d0",
+    "uid" : "8e9323b7b1053f8d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848516727,
-      "stop" : 1648848517131,
-      "duration" : 404
+      "start" : 1648903217244,
+      "stop" : 1648903217536,
+      "duration" : 292
     },
     "flaky" : false,
     "newFailed" : false,
@@ -376,13 +376,13 @@
     "parameters" : [ ]
   }, {
     "name" : "matches unknown text between two elements",
-    "uid" : "e2c4da007e37efa",
+    "uid" : "937a5c03cfc52f33",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848517155,
-      "stop" : 1648848517539,
-      "duration" : 384
+      "start" : 1648903217553,
+      "stop" : 1648903217935,
+      "duration" : 382
     },
     "flaky" : false,
     "newFailed" : false,
@@ -393,13 +393,13 @@
     "parameters" : [ ]
   }, {
     "name" : "assert - assert shape of an object",
-    "uid" : "9d7eabcf8e63df4b",
+    "uid" : "1cbad850be56eccb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848517567,
-      "stop" : 1648848517980,
-      "duration" : 413
+      "start" : 1648903217977,
+      "stop" : 1648903218329,
+      "duration" : 352
     },
     "flaky" : false,
     "newFailed" : false,
@@ -410,13 +410,13 @@
     "parameters" : [ ]
   }, {
     "name" : "retries the should callback until assertions pass",
-    "uid" : "5da84a82baf61b12",
+    "uid" : "2740bf6fea72fcec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848518002,
-      "stop" : 1648848519837,
-      "duration" : 1835
+      "start" : 1648903218352,
+      "stop" : 1648903220091,
+      "duration" : 1739
     },
     "flaky" : false,
     "newFailed" : false,
@@ -427,13 +427,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".each() - iterate over an array of elements",
-    "uid" : "6620bb4b9bd179f7",
+    "uid" : "2c674dc6c25e63c6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848529099,
-      "stop" : 1648848530191,
-      "duration" : 1092
+      "start" : 1648903227908,
+      "stop" : 1648903228786,
+      "duration" : 878
     },
     "flaky" : false,
     "newFailed" : false,
@@ -444,13 +444,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".its() - get properties on the current subject",
-    "uid" : "8cf81e48194d226d",
+    "uid" : "63031dbfa45e9f13",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848530222,
-      "stop" : 1648848530688,
-      "duration" : 466
+      "start" : 1648903228818,
+      "stop" : 1648903229168,
+      "duration" : 350
     },
     "flaky" : false,
     "newFailed" : false,
@@ -461,13 +461,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".invoke() - invoke a function on the current subject",
-    "uid" : "fcab2fa887562f2",
+    "uid" : "dc1f4f8308aa9306",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848530705,
-      "stop" : 1648848531110,
-      "duration" : 405
+      "start" : 1648903229201,
+      "stop" : 1648903229533,
+      "duration" : 332
     },
     "flaky" : false,
     "newFailed" : false,
@@ -478,13 +478,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".spread() - spread an array as individual args to callback function",
-    "uid" : "4b0fb111ca9422ca",
+    "uid" : "88d9f5284cbf8327",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848531167,
-      "stop" : 1648848531515,
-      "duration" : 348
+      "start" : 1648903229580,
+      "stop" : 1648903229959,
+      "duration" : 379
     },
     "flaky" : false,
     "newFailed" : false,
@@ -495,13 +495,13 @@
     "parameters" : [ ]
   }, {
     "name" : "invokes a callback function with the current subject",
-    "uid" : "a9902f0b635edffa",
+    "uid" : "47cc1efde4eefd59",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848531546,
-      "stop" : 1648848532032,
-      "duration" : 486
+      "start" : 1648903229987,
+      "stop" : 1648903230358,
+      "duration" : 371
     },
     "flaky" : false,
     "newFailed" : false,
@@ -512,13 +512,13 @@
     "parameters" : [ ]
   }, {
     "name" : "yields the returned value to the next command",
-    "uid" : "daea461a3dbca6a4",
+    "uid" : "55199e633a0b1c0a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848532062,
-      "stop" : 1648848532500,
-      "duration" : 438
+      "start" : 1648903230398,
+      "stop" : 1648903230721,
+      "duration" : 323
     },
     "flaky" : false,
     "newFailed" : false,
@@ -529,13 +529,13 @@
     "parameters" : [ ]
   }, {
     "name" : "yields the original subject without return",
-    "uid" : "f3a4fa0dd856e459",
+    "uid" : "501c55548ad960d2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848532555,
-      "stop" : 1648848532925,
-      "duration" : 370
+      "start" : 1648903230743,
+      "stop" : 1648903231073,
+      "duration" : 330
     },
     "flaky" : false,
     "newFailed" : false,
@@ -546,13 +546,13 @@
     "parameters" : [ ]
   }, {
     "name" : "yields the value yielded by the last Cypress command inside",
-    "uid" : "d7b252e58fc51e46",
+    "uid" : "b5fdd5fd2bb37b5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848532955,
-      "stop" : 1648848533314,
-      "duration" : 359
+      "start" : 1648903231103,
+      "stop" : 1648903231395,
+      "duration" : 292
     },
     "flaky" : false,
     "newFailed" : false,
@@ -563,13 +563,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.getCookie() - get a browser cookie",
-    "uid" : "ef5768e239a2afb7",
+    "uid" : "f4521417211346ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848541631,
-      "stop" : 1648848543121,
-      "duration" : 1490
+      "start" : 1648903238401,
+      "stop" : 1648903239655,
+      "duration" : 1254
     },
     "flaky" : false,
     "newFailed" : false,
@@ -580,13 +580,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.getCookies() - get browser cookies",
-    "uid" : "a09479aa4c1c6882",
+    "uid" : "38178d34ece7ff9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848543141,
-      "stop" : 1648848544094,
-      "duration" : 953
+      "start" : 1648903239681,
+      "stop" : 1648903240351,
+      "duration" : 670
     },
     "flaky" : false,
     "newFailed" : false,
@@ -597,13 +597,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.setCookie() - set a browser cookie",
-    "uid" : "2caa4fa6a215e87e",
+    "uid" : "ee17d8ae49f6be5d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848544127,
-      "stop" : 1648848544594,
-      "duration" : 467
+      "start" : 1648903240395,
+      "stop" : 1648903240786,
+      "duration" : 391
     },
     "flaky" : false,
     "newFailed" : false,
@@ -614,13 +614,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.clearCookie() - clear a browser cookie",
-    "uid" : "cea11ae27eaa9461",
+    "uid" : "ed7a3b48a4ddea5d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848544608,
-      "stop" : 1648848545198,
-      "duration" : 590
+      "start" : 1648903240810,
+      "stop" : 1648903241343,
+      "duration" : 533
     },
     "flaky" : false,
     "newFailed" : false,
@@ -631,1049 +631,12 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.clearCookies() - clear browser cookies",
-    "uid" : "d649a003d40d703b",
+    "uid" : "9f45d165c099fca4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848545213,
-      "stop" : 1648848545959,
-      "duration" : 746
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".add() - create a custom command",
-    "uid" : "6d59a71a198b35ba",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848554796,
-      "stop" : 1648848555855,
-      "duration" : 1059
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".debug() - enable or disable debugging",
-    "uid" : "17f43a75379ce471",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848555902,
-      "stop" : 1648848556363,
-      "duration" : 461
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".preserveOnce() - preserve cookies by key",
-    "uid" : "eb5fc0789ffddcf6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848556368,
-      "stop" : 1648848556852,
-      "duration" : 484
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".defaults() - set defaults for all cookies",
-    "uid" : "e798970b2ee4190",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848556868,
-      "stop" : 1648848557210,
-      "duration" : 342
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get CPU architecture name of underlying OS",
-    "uid" : "238a56ab10daeb3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848557233,
-      "stop" : 1648848557598,
-      "duration" : 365
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get and set configuration options",
-    "uid" : "9453ec94581f8b63",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848557656,
-      "stop" : 1648848558146,
-      "duration" : 490
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".isHidden() - determine if a DOM element is hidden",
-    "uid" : "4d4d16596aa8e94e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848558185,
-      "stop" : 1648848558552,
-      "duration" : 367
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get environment variables",
-    "uid" : "f970915385b8e805",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848558589,
-      "stop" : 1648848558958,
-      "duration" : 369
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Control what is printed to the Command Log",
-    "uid" : "1dd05dd3f0854baf",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848558999,
-      "stop" : 1648848559352,
-      "duration" : 353
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get underlying OS name",
-    "uid" : "7bc06770766dc35d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848559382,
-      "stop" : 1648848559673,
-      "duration" : 291
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get current version of Cypress being run",
-    "uid" : "687d7df696ac231e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848559710,
-      "stop" : 1648848560078,
-      "duration" : 368
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Get current spec information",
-    "uid" : "b6b78898d8034333",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848560120,
-      "stop" : 1648848560453,
-      "duration" : 333
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.fixture() - load a fixture",
-    "uid" : "cfac4965f545906c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848569464,
-      "stop" : 1648848571039,
-      "duration" : 1575
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.fixture() or require - load a fixture",
-    "uid" : "8613082507a90121",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848571134,
-      "stop" : 1648848571494,
-      "duration" : 360
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.readFile() - read file contents",
-    "uid" : "b7bb5178f37aa935",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848571524,
-      "stop" : 1648848571886,
-      "duration" : 362
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.writeFile() - write to a file",
-    "uid" : "b99d8996490ba93e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848571921,
-      "stop" : 1648848572761,
-      "duration" : 840
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.clearLocalStorage() - clear all data in local storage",
-    "uid" : "f77c53daa89ce51b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848581492,
-      "stop" : 1648848583698,
-      "duration" : 2206
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.hash() - get the current URL hash",
-    "uid" : "de5fc1d20d53a8f4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848591852,
-      "stop" : 1648848592861,
-      "duration" : 1009
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.location() - get window.location",
-    "uid" : "35295f575986fa35",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848592930,
-      "stop" : 1648848593368,
-      "duration" : 438
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.url() - get the current URL",
-    "uid" : "9537d4d15c974f36",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848593420,
-      "stop" : 1648848593722,
-      "duration" : 302
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".end() - end the command chain",
-    "uid" : "586fa9745636c921",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848601446,
-      "stop" : 1648848602872,
-      "duration" : 1426
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.exec() - execute a system command",
-    "uid" : "d18cdb92ab3b2547",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848602880,
-      "stop" : 1648848603898,
-      "duration" : 1018
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.focused() - get the DOM element that has focus",
-    "uid" : "a7f9c2f4b541bc64",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848603917,
-      "stop" : 1648848604658,
-      "duration" : 741
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.wrap() - wrap an object",
-    "uid" : "e7fba42a91ba2edf",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848604692,
-      "stop" : 1648848605009,
-      "duration" : 317
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.screenshot() - take a screenshot",
-    "uid" : "ea9ca41e9bd9bc0f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848605036,
-      "stop" : 1648848607169,
-      "duration" : 2133
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Cypress.Screenshot.defaults() - change default config of screenshots",
-    "uid" : "7386dc8a08366ee9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848607174,
-      "stop" : 1648848607465,
-      "duration" : 291
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.go() - go back or forward in the browser's history",
-    "uid" : "debc48d6eb5bb6c3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848615504,
-      "stop" : 1648848618234,
-      "duration" : 2730
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.reload() - reload the page",
-    "uid" : "1817435c8421a28a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848618279,
-      "stop" : 1648848619703,
-      "duration" : 1424
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.visit() - visit a remote url",
-    "uid" : "84151e156e36f2f9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848619725,
-      "stop" : 1648848620920,
-      "duration" : 1195
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.request() - make an XHR request",
-    "uid" : "13caa165e009c4ef",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848629812,
-      "stop" : 1648848631380,
-      "duration" : 1568
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.request() - verify response using BDD syntax",
-    "uid" : "d2b07dea224484f3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848631402,
-      "stop" : 1648848632404,
-      "duration" : 1002
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.request() with query parameters",
-    "uid" : "45de7f737138f5c9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848632444,
-      "stop" : 1648848633086,
-      "duration" : 642
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.request() - pass result to the second request",
-    "uid" : "28b1a21242c791e7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848633120,
-      "stop" : 1648848634068,
-      "duration" : 948
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.request() - save response in the shared test context",
-    "uid" : "f25116bc1ad9a695",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848634096,
-      "stop" : 1648848634793,
-      "duration" : 697
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.intercept() - route responses to matching requests",
-    "uid" : "3ba66a89ac0f0b23",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848634808,
-      "stop" : 1648848636868,
-      "duration" : 2060
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.get() - query DOM elements",
-    "uid" : "2fc337c7c4ecf06b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848646117,
-      "stop" : 1648848647252,
-      "duration" : 1135
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.contains() - query DOM elements with matching content",
-    "uid" : "37bea8ed47f1da8f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848647357,
-      "stop" : 1648848647902,
-      "duration" : 545
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".within() - query DOM elements within a specific element",
-    "uid" : "1518cd24312c127a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848647924,
-      "stop" : 1648848648383,
-      "duration" : 459
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.root() - query the root DOM element",
-    "uid" : "b103adef8eeafb5d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848648420,
-      "stop" : 1648848648970,
-      "duration" : 550
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "best practices - selecting elements",
-    "uid" : "411330aa92c80b61",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848649009,
-      "stop" : 1648848650483,
-      "duration" : 1474
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.spy() - wrap a method in a spy",
-    "uid" : "254153f3e0b76dc",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848658712,
-      "stop" : 1648848659668,
-      "duration" : 956
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.spy() retries until assertions pass",
-    "uid" : "fae284346715fb99",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848659707,
-      "stop" : 1648848662265,
-      "duration" : 2558
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.stub() - create a stub and/or replace a function with stub",
-    "uid" : "28ac739976add66b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848662294,
-      "stop" : 1648848662650,
-      "duration" : 356
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.clock() - control time in the browser",
-    "uid" : "ddbd35d155b2fdf6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848662683,
-      "stop" : 1648848663200,
-      "duration" : 517
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.tick() - move time in the browser",
-    "uid" : "6d2b070aa076cc70",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848663215,
-      "stop" : 1648848664082,
-      "duration" : 867
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "cy.stub() matches depending on arguments",
-    "uid" : "de9070e633f12779",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848664097,
-      "stop" : 1648848664164,
-      "duration" : 67
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "matches call arguments using Sinon matchers",
-    "uid" : "3badf2d76e3e6765",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848664209,
-      "stop" : 1648848664302,
-      "duration" : 93
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".children() - get child DOM elements",
-    "uid" : "7533ee67efc6ceb1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848673204,
-      "stop" : 1648848674084,
-      "duration" : 880
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".closest() - get closest ancestor DOM element",
-    "uid" : "a98398c38bfba59b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848674127,
-      "stop" : 1648848674589,
-      "duration" : 462
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".eq() - get a DOM element at a specific index",
-    "uid" : "4e52ecc5a7804775",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848674611,
-      "stop" : 1648848675091,
-      "duration" : 480
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".filter() - get DOM elements that match the selector",
-    "uid" : "8e86c9ba1b2ca9a8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848675157,
-      "stop" : 1648848675519,
-      "duration" : 362
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".find() - get descendant DOM elements of the selector",
-    "uid" : "e404b9a40b025a0b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848675548,
-      "stop" : 1648848676142,
-      "duration" : 594
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".first() - get first DOM element",
-    "uid" : "157139822438d620",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848676186,
-      "stop" : 1648848676605,
-      "duration" : 419
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".last() - get last DOM element",
-    "uid" : "8fb6b8b47a2740",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848676632,
-      "stop" : 1648848677055,
-      "duration" : 423
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".next() - get next sibling DOM element",
-    "uid" : "261b1a4ce9a15ca0",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848677101,
-      "stop" : 1648848677461,
-      "duration" : 360
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".nextAll() - get all next sibling DOM elements",
-    "uid" : "c3fa8da7f87947ab",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848677493,
-      "stop" : 1648848677900,
-      "duration" : 407
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".nextUntil() - get next sibling DOM elements until next el",
-    "uid" : "4b8227bcb0c0dd8c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848677956,
-      "stop" : 1648848678310,
-      "duration" : 354
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".not() - remove DOM elements from set of DOM elements",
-    "uid" : "c5dad5403f9ef4df",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848678342,
-      "stop" : 1648848678710,
-      "duration" : 368
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".parent() - get parent DOM element from DOM elements",
-    "uid" : "a9a1d260dff38010",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848678755,
-      "stop" : 1648848679216,
-      "duration" : 461
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".parents() - get parent DOM elements from DOM elements",
-    "uid" : "54fd965dc576ee24",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848679235,
-      "stop" : 1648848679672,
-      "duration" : 437
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : ".parentsUntil() - get parent DOM elements from DOM elements until el",
-    "uid" : "4f13ee7cf3570a05",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1648848679706,
-      "stop" : 1648848680182,
+      "start" : 1648903241354,
+      "stop" : 1648903241830,
       "duration" : 476
     },
     "flaky" : false,
@@ -1684,14 +647,1051 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : ".prev() - get previous sibling DOM element",
-    "uid" : "797c5acd6bf90104",
+    "name" : ".add() - create a custom command",
+    "uid" : "b7f8006a020c69e0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848680211,
-      "stop" : 1648848680624,
-      "duration" : 413
+      "start" : 1648903249221,
+      "stop" : 1648903249995,
+      "duration" : 774
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".debug() - enable or disable debugging",
+    "uid" : "da03cb61f82835b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903250026,
+      "stop" : 1648903250532,
+      "duration" : 506
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".preserveOnce() - preserve cookies by key",
+    "uid" : "237d1ff188dea8f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903250542,
+      "stop" : 1648903250908,
+      "duration" : 366
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".defaults() - set defaults for all cookies",
+    "uid" : "34e7600acafa3b5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903250933,
+      "stop" : 1648903251162,
+      "duration" : 229
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get CPU architecture name of underlying OS",
+    "uid" : "f7281095f12b80",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903251184,
+      "stop" : 1648903251523,
+      "duration" : 339
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get and set configuration options",
+    "uid" : "4ff4b26869ec4939",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903251564,
+      "stop" : 1648903251927,
+      "duration" : 363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".isHidden() - determine if a DOM element is hidden",
+    "uid" : "da5eea7bea1b7bcf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903251976,
+      "stop" : 1648903252391,
+      "duration" : 415
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get environment variables",
+    "uid" : "d4c0577cbc24169d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903252424,
+      "stop" : 1648903252774,
+      "duration" : 350
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Control what is printed to the Command Log",
+    "uid" : "3e4768dce224a6d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903252804,
+      "stop" : 1648903253103,
+      "duration" : 299
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get underlying OS name",
+    "uid" : "75719b2a065e1117",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903253144,
+      "stop" : 1648903253411,
+      "duration" : 267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get current version of Cypress being run",
+    "uid" : "2151c46119a0d672",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903253434,
+      "stop" : 1648903253890,
+      "duration" : 456
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get current spec information",
+    "uid" : "934ae77fe720028",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903253928,
+      "stop" : 1648903254254,
+      "duration" : 326
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.fixture() - load a fixture",
+    "uid" : "909aba65738681e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903261839,
+      "stop" : 1648903262922,
+      "duration" : 1083
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.fixture() or require - load a fixture",
+    "uid" : "3cd3bc16e45d1c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903262958,
+      "stop" : 1648903263256,
+      "duration" : 298
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.readFile() - read file contents",
+    "uid" : "d27fcbebb9ce64cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903263285,
+      "stop" : 1648903263658,
+      "duration" : 373
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.writeFile() - write to a file",
+    "uid" : "e11471b0b95982ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903263671,
+      "stop" : 1648903264373,
+      "duration" : 702
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.clearLocalStorage() - clear all data in local storage",
+    "uid" : "6a7a9a9c916123b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903272090,
+      "stop" : 1648903273663,
+      "duration" : 1573
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.hash() - get the current URL hash",
+    "uid" : "eeef484c7b2f8c1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903280372,
+      "stop" : 1648903281081,
+      "duration" : 709
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.location() - get window.location",
+    "uid" : "ce6e5bbd8fe638ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903281247,
+      "stop" : 1648903281646,
+      "duration" : 399
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.url() - get the current URL",
+    "uid" : "ff267b2172e97c7f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903281695,
+      "stop" : 1648903281922,
+      "duration" : 227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".end() - end the command chain",
+    "uid" : "31b756b2533f3bf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903288505,
+      "stop" : 1648903289523,
+      "duration" : 1018
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.exec() - execute a system command",
+    "uid" : "a1be4c090db21265",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903289530,
+      "stop" : 1648903290354,
+      "duration" : 824
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.focused() - get the DOM element that has focus",
+    "uid" : "45bf232a437be945",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903290358,
+      "stop" : 1648903291046,
+      "duration" : 688
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.wrap() - wrap an object",
+    "uid" : "362ece9c5879c5c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903291069,
+      "stop" : 1648903291384,
+      "duration" : 315
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.screenshot() - take a screenshot",
+    "uid" : "46a62fba5f158ccd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903291409,
+      "stop" : 1648903293390,
+      "duration" : 1981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Cypress.Screenshot.defaults() - change default config of screenshots",
+    "uid" : "8f2e6794c3230dd3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903293426,
+      "stop" : 1648903293764,
+      "duration" : 338
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.go() - go back or forward in the browser's history",
+    "uid" : "74832e9e74051913",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903300862,
+      "stop" : 1648903303184,
+      "duration" : 2322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.reload() - reload the page",
+    "uid" : "ba97374bc232a848",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903303212,
+      "stop" : 1648903304194,
+      "duration" : 982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.visit() - visit a remote url",
+    "uid" : "6e61a3a859ba787d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903304221,
+      "stop" : 1648903305084,
+      "duration" : 863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() - make an XHR request",
+    "uid" : "158312fcea71630a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903312596,
+      "stop" : 1648903313893,
+      "duration" : 1297
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() - verify response using BDD syntax",
+    "uid" : "266f39485e1f9c80",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903313916,
+      "stop" : 1648903314867,
+      "duration" : 951
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() with query parameters",
+    "uid" : "9395adc7345cb569",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903314891,
+      "stop" : 1648903315434,
+      "duration" : 543
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() - pass result to the second request",
+    "uid" : "e54fee62891cbf25",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903315457,
+      "stop" : 1648903316304,
+      "duration" : 847
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.request() - save response in the shared test context",
+    "uid" : "19153f2a76211922",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903316349,
+      "stop" : 1648903317088,
+      "duration" : 739
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.intercept() - route responses to matching requests",
+    "uid" : "ad38ca382146bb84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903317109,
+      "stop" : 1648903318937,
+      "duration" : 1828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.get() - query DOM elements",
+    "uid" : "fdc8613aafe7ab7c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903326846,
+      "stop" : 1648903327952,
+      "duration" : 1106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.contains() - query DOM elements with matching content",
+    "uid" : "f80490766c8c335a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903328066,
+      "stop" : 1648903328418,
+      "duration" : 352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".within() - query DOM elements within a specific element",
+    "uid" : "ceef6a21a71e6fce",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903328533,
+      "stop" : 1648903328887,
+      "duration" : 354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.root() - query the root DOM element",
+    "uid" : "f3f62aec61690ec3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903328916,
+      "stop" : 1648903329282,
+      "duration" : 366
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "best practices - selecting elements",
+    "uid" : "8edba3924a5e4edb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903329311,
+      "stop" : 1648903330509,
+      "duration" : 1198
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.spy() - wrap a method in a spy",
+    "uid" : "17550d477bf6d5cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903337810,
+      "stop" : 1648903338560,
+      "duration" : 750
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.spy() retries until assertions pass",
+    "uid" : "7048fbe1476b971f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903338645,
+      "stop" : 1648903341191,
+      "duration" : 2546
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.stub() - create a stub and/or replace a function with stub",
+    "uid" : "7abeacaeb789c1d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903341224,
+      "stop" : 1648903341543,
+      "duration" : 319
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.clock() - control time in the browser",
+    "uid" : "23bcf62bda7c5bd8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903341571,
+      "stop" : 1648903342079,
+      "duration" : 508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.tick() - move time in the browser",
+    "uid" : "1c20925c28a5a86e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903342084,
+      "stop" : 1648903342678,
+      "duration" : 594
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "cy.stub() matches depending on arguments",
+    "uid" : "a11614617a76450a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903342693,
+      "stop" : 1648903342734,
+      "duration" : 41
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "matches call arguments using Sinon matchers",
+    "uid" : "20b0a69e9cda6173",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903342772,
+      "stop" : 1648903342878,
+      "duration" : 106
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".children() - get child DOM elements",
+    "uid" : "e353f3eb6e71a40a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903350030,
+      "stop" : 1648903350813,
+      "duration" : 783
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".closest() - get closest ancestor DOM element",
+    "uid" : "e646f832de67ad3e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903350849,
+      "stop" : 1648903351185,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".eq() - get a DOM element at a specific index",
+    "uid" : "d090f4b5c7c42462",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903351241,
+      "stop" : 1648903351700,
+      "duration" : 459
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".filter() - get DOM elements that match the selector",
+    "uid" : "5b31aaa8d5f38245",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903351750,
+      "stop" : 1648903352105,
+      "duration" : 355
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".find() - get descendant DOM elements of the selector",
+    "uid" : "675181d198edd9de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903352137,
+      "stop" : 1648903352489,
+      "duration" : 352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".first() - get first DOM element",
+    "uid" : "a6494e734306ca96",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903352540,
+      "stop" : 1648903352925,
+      "duration" : 385
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".last() - get last DOM element",
+    "uid" : "60b78664915822ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903352953,
+      "stop" : 1648903353289,
+      "duration" : 336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".next() - get next sibling DOM element",
+    "uid" : "3dddc2525aa5ef5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903353347,
+      "stop" : 1648903353699,
+      "duration" : 352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".nextAll() - get all next sibling DOM elements",
+    "uid" : "41ae226808ae12f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903353735,
+      "stop" : 1648903354120,
+      "duration" : 385
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".nextUntil() - get next sibling DOM elements until next el",
+    "uid" : "445c57e0e3b46133",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903354151,
+      "stop" : 1648903354485,
+      "duration" : 334
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".not() - remove DOM elements from set of DOM elements",
+    "uid" : "c64e50819d9ab4ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903354534,
+      "stop" : 1648903354816,
+      "duration" : 282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".parent() - get parent DOM element from DOM elements",
+    "uid" : "77777a08243461b5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903354864,
+      "stop" : 1648903355172,
+      "duration" : 308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".parents() - get parent DOM elements from DOM elements",
+    "uid" : "5cea448b9a6d2cc8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903355192,
+      "stop" : 1648903355457,
+      "duration" : 265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".parentsUntil() - get parent DOM elements from DOM elements until el",
+    "uid" : "d3090bdee761884",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903355500,
+      "stop" : 1648903355772,
+      "duration" : 272
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : ".prev() - get previous sibling DOM element",
+    "uid" : "7858c3d962880ee4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1648903355802,
+      "stop" : 1648903356044,
+      "duration" : 242
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1702,13 +1702,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".prevAll() - get all previous sibling DOM elements",
-    "uid" : "40ddfa7e298bbf90",
+    "uid" : "1e182d9dcc6778e5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848680690,
-      "stop" : 1648848681034,
-      "duration" : 344
+      "start" : 1648903356084,
+      "stop" : 1648903356573,
+      "duration" : 489
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1719,13 +1719,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".prevUntil() - get all previous sibling DOM elements until el",
-    "uid" : "5128dc806d7dab2a",
+    "uid" : "777d3d60c8072eb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848681077,
-      "stop" : 1648848681528,
-      "duration" : 451
+      "start" : 1648903356603,
+      "stop" : 1648903356882,
+      "duration" : 279
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1736,13 +1736,13 @@
     "parameters" : [ ]
   }, {
     "name" : ".siblings() - get all sibling DOM elements",
-    "uid" : "c72a5e52a982dd8c",
+    "uid" : "c3693dd8e0108845",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848681563,
-      "stop" : 1648848681924,
-      "duration" : 361
+      "start" : 1648903356897,
+      "stop" : 1648903357293,
+      "duration" : 396
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1753,13 +1753,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Cypress._ - call a lodash method",
-    "uid" : "56d3db13eef99d1b",
+    "uid" : "4fa55c1f8ef34ede",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848691991,
-      "stop" : 1648848693311,
-      "duration" : 1320
+      "start" : 1648903365480,
+      "stop" : 1648903366672,
+      "duration" : 1192
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1770,13 +1770,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Cypress.$ - call a jQuery method",
-    "uid" : "26fddc6b89ae5475",
+    "uid" : "93db3acfcfa6dbd8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848693331,
-      "stop" : 1648848694108,
-      "duration" : 777
+      "start" : 1648903366686,
+      "stop" : 1648903367167,
+      "duration" : 481
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1787,13 +1787,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Cypress.Blob - blob utilities and base64 string conversion",
-    "uid" : "ed48e852a79f6c89",
+    "uid" : "add9074834aae2e5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848694123,
-      "stop" : 1648848694846,
-      "duration" : 723
+      "start" : 1648903367171,
+      "stop" : 1648903367723,
+      "duration" : 552
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1804,13 +1804,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Cypress.minimatch - test out glob patterns against strings",
-    "uid" : "dd4b52b621ace82c",
+    "uid" : "cee16b9a09005677",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848694860,
-      "stop" : 1648848695150,
-      "duration" : 290
+      "start" : 1648903367732,
+      "stop" : 1648903368013,
+      "duration" : 281
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1821,13 +1821,13 @@
     "parameters" : [ ]
   }, {
     "name" : "Cypress.Promise - instantiate a bluebird promise",
-    "uid" : "65b84085ddcaf8f1",
+    "uid" : "fee7723b78c828a5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848695197,
-      "stop" : 1648848696478,
-      "duration" : 1281
+      "start" : 1648903368060,
+      "stop" : 1648903369300,
+      "duration" : 1240
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1838,13 +1838,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.viewport() - set the viewport size and dimension",
-    "uid" : "e76118b750ae2146",
+    "uid" : "ce94b912eb568f7b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848705542,
-      "stop" : 1648848709706,
-      "duration" : 4164
+      "start" : 1648903376104,
+      "stop" : 1648903380080,
+      "duration" : 3976
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1855,13 +1855,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.wait() - wait for a specific amount of time",
-    "uid" : "d8b3594af0b1e5de",
+    "uid" : "7e680a0a05816fdd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848719344,
-      "stop" : 1648848725336,
-      "duration" : 5992
+      "start" : 1648903387262,
+      "stop" : 1648903392846,
+      "duration" : 5584
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1872,13 +1872,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.wait() - wait for a specific route",
-    "uid" : "ee4a106cce8beaba",
+    "uid" : "b76b70ab1099b3d1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848725346,
-      "stop" : 1648848726321,
-      "duration" : 975
+      "start" : 1648903392869,
+      "stop" : 1648903393679,
+      "duration" : 810
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1889,13 +1889,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.window() - get the global window object",
-    "uid" : "56dd841720ddf452",
+    "uid" : "e305d1cab618fe6e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848735755,
-      "stop" : 1648848736789,
-      "duration" : 1034
+      "start" : 1648903401155,
+      "stop" : 1648903401939,
+      "duration" : 784
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1906,13 +1906,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.document() - get the document object",
-    "uid" : "6bcef41753399600",
+    "uid" : "7e327ddd4aec2a1a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848736824,
-      "stop" : 1648848737262,
-      "duration" : 438
+      "start" : 1648903401989,
+      "stop" : 1648903402339,
+      "duration" : 350
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1923,13 +1923,13 @@
     "parameters" : [ ]
   }, {
     "name" : "cy.title() - get the title",
-    "uid" : "8f106efb2cd5ad5e",
+    "uid" : "7ffaff6340fa1488",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848737317,
-      "stop" : 1648848737617,
-      "duration" : 300
+      "start" : 1648903402365,
+      "stop" : 1648903402662,
+      "duration" : 297
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1940,13 +1940,13 @@
     "parameters" : [ ]
   }, {
     "name" : "displays two todo items by default",
-    "uid" : "323d62707a7c1b80",
+    "uid" : "95d5d24249b62d1b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848760416,
-      "stop" : 1648848762044,
-      "duration" : 1628
+      "start" : 1648903420044,
+      "stop" : 1648903421180,
+      "duration" : 1136
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1957,13 +1957,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can add new todo items",
-    "uid" : "d1d9204dece7457a",
+    "uid" : "e56d82a313f006e1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848762169,
-      "stop" : 1648848763098,
-      "duration" : 929
+      "start" : 1648903421223,
+      "stop" : 1648903421964,
+      "duration" : 741
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1974,13 +1974,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can check off an item as completed",
-    "uid" : "9686d883bd906a",
+    "uid" : "39f1811ba5c488e8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848763130,
-      "stop" : 1648848763785,
-      "duration" : 655
+      "start" : 1648903421983,
+      "stop" : 1648903422502,
+      "duration" : 519
     },
     "flaky" : false,
     "newFailed" : false,
@@ -1991,13 +1991,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can filter for uncompleted tasks",
-    "uid" : "f8650af8b842a97b",
+    "uid" : "2e2c6477562fa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848763817,
-      "stop" : 1648848764656,
-      "duration" : 839
+      "start" : 1648903422525,
+      "stop" : 1648903423051,
+      "duration" : 526
     },
     "flaky" : false,
     "newFailed" : false,
@@ -2008,13 +2008,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can filter for completed tasks",
-    "uid" : "6841f55464dae029",
+    "uid" : "a5b648c614886bec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848764698,
-      "stop" : 1648848765363,
-      "duration" : 665
+      "start" : 1648903423085,
+      "stop" : 1648903423692,
+      "duration" : 607
     },
     "flaky" : false,
     "newFailed" : false,
@@ -2025,13 +2025,13 @@
     "parameters" : [ ]
   }, {
     "name" : "can delete all completed tasks",
-    "uid" : "944608c8bb00b4a5",
+    "uid" : "4fa1fcc56830f0f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648848765401,
-      "stop" : 1648848766158,
-      "duration" : 757
+      "start" : 1648903423722,
+      "stop" : 1648903424269,
+      "duration" : 547
     },
     "flaky" : false,
     "newFailed" : false,
