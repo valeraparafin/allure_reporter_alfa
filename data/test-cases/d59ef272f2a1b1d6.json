@@ -1,0 +1,290 @@
+{
+  "uid" : "d59ef272f2a1b1d6",
+  "name" : "can delete all completed tasks",
+  "fullName" : "can delete all completed tasks",
+  "historyId" : "656caefe09fee4cc76b1222c10a5099c",
+  "time" : {
+    "start" : 1648904486958,
+    "stop" : 1648904487587,
+    "duration" : 629
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648904486958,
+        "stop" : 1648904487207,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://example.cypress.io/todo",
+        "time" : {
+          "start" : 1648904486973,
+          "stop" : 1648904487207,
+          "duration" : 234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1648904487253,
+        "stop" : 1648904487430,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "contains Pay electric bill",
+        "time" : {
+          "start" : 1648904487256,
+          "stop" : 1648904487267,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "parent",
+        "time" : {
+          "start" : 1648904487267,
+          "stop" : 1648904487279,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "find input[type=checkbox]",
+        "time" : {
+          "start" : 1648904487279,
+          "stop" : 1648904487281,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check",
+        "time" : {
+          "start" : 1648904487281,
+          "stop" : 1648904487430,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "contains Clear completed",
+      "time" : {
+        "start" : 1648904487431,
+        "stop" : 1648904487434,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1648904487434,
+        "stop" : 1648904487534,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .todo-list li",
+      "time" : {
+        "start" : 1648904487534,
+        "stop" : 1648904487547,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<li>** to have a length of **1**",
+      "time" : {
+        "start" : 1648904487547,
+        "stop" : 1648904487547,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **<li>** not to have text **Pay electric bill**",
+      "time" : {
+        "start" : 1648904487547,
+        "stop" : 1648904487547,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Clear completed",
+      "time" : {
+        "start" : 1648904487547,
+        "stop" : 1648904487586,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **:cy-contains(**'Clear completed'**), [type=**'submit'**][value~=**'Clear completed'**]** not to exist in the DOM",
+      "time" : {
+        "start" : 1648904487586,
+        "stop" : 1648904487586,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : ":cy-contains(**'Clear completed'**), [type=**'submit'**][value~=**'Clear completed'**]"
+      }, {
+        "name" : "expected",
+        "value" : ":cy-contains('Clear completed'), [type='submit'][value~='Clear completed']"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "example to-do app"
+  }, {
+    "name" : "suite",
+    "value" : "with a checked task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7aa0a1f26ed938b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648904476239,
+        "stop" : 1648904476860,
+        "duration" : 621
+      }
+    }, {
+      "uid" : "8d2c0d2831d422c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648904227343,
+        "stop" : 1648904227934,
+        "duration" : 591
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d59ef272f2a1b1d6.json",
+  "parameterValues" : [ ]
+}
