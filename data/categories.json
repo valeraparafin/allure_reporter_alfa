@@ -3,6 +3,7 @@
   "children" : [ {
     "name" : "Test passed",
     "children" : [ {
+	  "name" : "Test passed",
       "children" : [ {
         "name" : ".type() - type into a DOM element",
         "uid" : "1b59ff845cd2f053",
