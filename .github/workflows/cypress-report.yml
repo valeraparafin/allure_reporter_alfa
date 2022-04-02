@@ -45,6 +45,8 @@ jobs:
     - name: Run Cypress tests
       run: npm run integrate
       continue-on-error: true
+    - name: Set Categories JSON
+      run: npm run copy:conf:linux
     - name: Generate Allure Report
       run: npm run aftertest
     - name: Deploy Generated Report
